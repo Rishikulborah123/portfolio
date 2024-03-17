@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" >
+    
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css" class="css">
 </head>
@@ -12,14 +13,28 @@
             
             <ul>
                 <li><b>PORTFOLIO</b></li>
-                <li><a href="#containers">Home</a></li>
-                <li><a href="#abouts">About Me</a></li>
-                <li><a href="#educations">Education</a></li>
-                <li><a href="#skill">skills</a></li>
-                <li><a href="#socials">Soical Media Handles</a> </li>
+                <li><a class="list" href="#containers">Home</a></li>
+                <li><a class="list" href="#abouts">About Me</a></li>
+                <li><a class="list" href="#educations">Education</a></li>
+                <li><a class="list" href="#skill">skills</a></li>
+                <li><a class="list" href="#socials">Soical Media Handles</a> </li>
+               
             </ul>
             <div class="headline"></div>
         </div>
+        <i class=" fas fa-bars bars" onclick="openmenu()"></i>
+        <div class="bar_container" id="sidemenu">
+            <i class="fas fa-times" onclick="closemenu()"></i>
+                <ul class="unordered">
+                    <li ><a class="list1" href="#containers">Home</a></li>
+                    <li><a class="list1" href="#abouts">About Me</a></li>
+                    <li><a class="list1" href="#educations">Education</a></li>
+                    <li><a class="list1" href="#skill">skills</a></li>
+                    <li><a class="list1" href="#socials">Soical Media Handles</a> </li>
+                </ul>
+           
+        </div>
+
     </header>
     <main>
         <div class="container" id="containers">
@@ -57,10 +72,10 @@
         <div class="social" id="socials">
             <h1>Social Media Handles</h1>
             <div class="handles">
-                <a href="https://www.instagram.com/rishi_kul_borah?igsh=ZnpqenJtNm92Z3B4"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://x.com/RishikulB66219?t=NsoXfcv0SBbPPMrgxcT8NQ&s=08"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://github.com/Rishikulborah123"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/rishikul-borah-1706ab299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="icon" href="https://www.instagram.com/rishi_kul_borah?igsh=ZnpqenJtNm92Z3B4"><i class="fa-brands fa-instagram"></i></a>
+                <a class="icon" href="https://x.com/RishikulB66219?t=NsoXfcv0SBbPPMrgxcT8NQ&s=08"><i class="fa-brands fa-twitter"></i></a>
+                <a class="icon" href="https://github.com/Rishikulborah123"><i class="fa-brands fa-github"></i></a>
+                <a class="icon" href="https://www.linkedin.com/in/rishikul-borah-1706ab299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
         <script src="https://kit.fontawesome.com/ed601e8656.js" crossorigin="anonymous"></script>
